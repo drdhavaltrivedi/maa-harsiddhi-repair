@@ -1,4 +1,37 @@
+# Robots.txt — Maa Harsiddhi Electronics
+# Allow all search engines and AI crawlers
+
 User-agent: *
 Allow: /
-
 Sitemap: https://maaharsiddhielectronics.vercel.app/sitemap.xml
+
+# AI Model Crawlers — Explicitly Allowed
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: FacebookBot
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
